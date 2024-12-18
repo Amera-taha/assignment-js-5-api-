@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    
+    <!--^====>nav <===== -->
+  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand d-flex g-5" href="#"> <img src="img/logo.png" alt="">Weather
+                
+              </a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+    <main>
+      <section id="home">
+      <div class="container py-5">
+        <div class="card w-50  m-auto">
+          
+            <div class="search">
+            <input class="form-control bg-dark"   placeholder="find your loction...">
+            <button type="submit" class="" ><i class="fa-solid fa-magnifying-glass "></i></button>
+         
+          </div>
+          <div class="weather my-4">
+            <h2 class="date text-dark"></h2>
+            <img src="img/113 (1).png" class="weather-icon" alt="weather">
+            <small class="country text-warning d-block"></small>
+            <h1 class="temp"></h1>
+            <h3 class="text text-info"></h3>
+            <h2 class="city"></h2>
+            <div class="detalis">
+              <div class="row">
+                <div class="col">
+                  <img src="img/icon-umberella.png" alt="umberella">
+              <p class="humidity"></p>
+                </div>
+                <div class="col">
+                  <img src="img/icon-wind.png" alt="wind">
+              <p class="wind"></p>
+                </div>
+                <div class="col">
+                  <img src="img/icon-compass.png" alt="umberella">
+              <p class="East">East</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+        
+
+
+      </div>
+      <footer class="bg-dark py-4">
+        <div class="container">
+          <div class="search d-flex justify-content-between">
+            <input class="form-control bg-dark"   placeholder="
+            Enter your email to subscribe...">
+            <button type="submit" class="btn bg-info" >subscrib</button>         
+          </div>
+          <p class="text-center text-info py-4"> Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+        </div>
+    </footer>
+      </section>
+    </main>
+
+<h1 id="bata"></h1>
+
+
+    <script src="index.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
